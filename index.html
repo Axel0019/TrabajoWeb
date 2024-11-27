@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header-contenedor">
+          <img src="./image/Logo principal.png" alt="Logo" class="logo">
+          <h1>CALEINZA</h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+              <li><a href="#home"><i class="fas fa-home"></i> Inicio</a></li>
+              <li><a href="./pages/hombre.html"><i class="fas fa-male"></i> Hombres</a></li>
+              <li><a href="./pages/mujer.html"><i class="fas fa-female"></i> Mujeres</a></li>
+              <li><a href="./pages/niños.html"><i class="fas fa-child"></i> Niños</a></li>
+              <li><a href="#sale"><i class="fas fa-tags"></i> Ofertas</a></li>
+              <li><a href="#contact"><i class="fas fa-envelope"></i> Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+      <section class="section-order">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="./image/Modelo Let It Be.jpg" class="d-block w-100 carousel-img" alt="remerahombre">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Modelo Let It Be.</h5>
+                <p>¡Modelo con un diseño único para usar este verano!</p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="./image/Modelo Mujer Madison.jpg" class="d-block w-100 carousel-img" alt="remeramujer">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Modelo Mujer Madison</h5>
+                <p>Remera única de Madison, lleva algodón para una mejor comodidad.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./image/remeraniño.avif" class="d-block w-100 carousel-img" alt="remeraniño">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Modelo Simple Avatar</h5>
+                <p>Perfecto para tu hijo/a, con un estampado único de unas de las series más icónico como avatar.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <br>
+      <h2>¡MÁS PRENDAS!</h2>
+      <section class="section-target">
+        <div>
+          <div>
+            <div class="card" style="width: 18rem;">
+              <img src="./image/Conjunto Adidas 1.jpg" class="card-img-top" alt="ConjuntoAdidas">
+              <div class="card-body">
+                <h5 class="card-title">Conjunto Verde Adidas</h5>
+                <p class="card-text">Conjunto verde Adidas, diseñado para un estilo iconico y deportivo.</p>
+                <a href="#" class="btn btn-primary">Comprar a solo 45.299$.</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="./image/Medias nike.jpg" class="card-img-top" alt="MediasNike">
+              <div class="card-body">
+                <h5 class="card-title">Medias Nike</h5>
+                <p class="card-text">Nuevo modelo impresionante de Nike, medias negra 100% algodón ideal para tus píes.</p>
+                <a href="#" class="btn btn-primary">Comprar a solo 9.999$.</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="./image/Guantes puma.jpg" class="card-img-top" alt="Guantes Puma">
+              <div class="card-body">
+                <h5 class="card-title">Guantes Puma</h5>
+                <p class="card-text">Puma saca su colección de guantes, ¡aprovecha y comprate unas!</p>
+                <a href="#" class="btn btn-primary">Comprar a solo 17.599$.</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2024 Caleinza. Todos los derechos reservados.</p>
+        <p>Dirección: Calle Falsa 123, Buenos Aires, Argentina</p>
+        <ul class="footer-links">
+          <li><a href="#privacy">Política de Privacidad</a></li>
+          <li><a href="#terms">Términos y Condiciones</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

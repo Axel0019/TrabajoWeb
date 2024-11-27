@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F1F0E8;
+}
+
+header{
+    background-color: #333; 
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.header-contenedor{
+    display: flex; 
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo{
+    max-width: 10%;
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+h3{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #007bff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #333;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.card-body img{
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+}
+
+.nav-links {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 10px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a i {
+    margin-right: 8px;
+}
+
+.nav-links a:hover{
+    color: #f4f4f4; 
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-content{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.footer-links{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.footer-links li{
+    margin: 0 15px;
+}
+
+.footer-links a{
+    color: #f4f4f4;
+    text-decoration: none;
+}
+
+.footer-links a:hover{
+    text-decoration: underline;
+}
